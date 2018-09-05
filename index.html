@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web App - Task Manager</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body>
+    <header class="header">
+        <h1>Task Manager</h1>
+    </header>
+    <main>
+        <section id="taskList" class="task-list">
+        </section>
+        <section class="task-creation">
+            <!-- <h2>Create new task</h2> -->
+            <input id="title" type="text" name="title" placeholder="Title">
+            <input id="desc" type="text" name="description" placeholder="Description">
+            <button id="create">Create New Task</button> 
+        </section>
+    </main>        
+    <footer class="footer">
+        <hr>
+        <h1 id="clearAll">Clear All Tasks</h1>    
+    </footer>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

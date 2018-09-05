@@ -1,0 +1,82 @@
+/* Mini Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    /* border: none; */
+    box-sizing: content-box;
+}
+
+/* ---------------- All Page -------------------*/
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+/* ------------------ Contents -------------------*/
+
+.header, .task-creation{
+    background-color: rgb(160, 66, 66);
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.header{
+    height: 100px;
+    text-align: center;
+    line-height: 3;
+}
+
+.task-list{
+    padding: 20px;
+    overflow: auto;
+    margin-bottom: 204px;
+}
+
+.list-item{
+    background-color: rgb(240, 240, 240);
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-item h3, .list-item p{
+    margin: 5px 0;
+}
+
+.list-item button{
+    margin-top: 10px;
+    padding: 4px;
+}
+
+.task-creation{
+    height: 118px;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 66px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.task-creation input, .task-creation button{
+    width: 90%;
+    padding: 5px;
+    margin: 4px 0;
+}
+
+.footer{
+    background-color: rgb(200, 200, 200);
+    text-align: center;
+    line-height: 2;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer h1{
+    font-weight: 500;
+    cursor: pointer;
+}
